@@ -1,0 +1,137 @@
+
+body{
+    background-color:#DEDEDE;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: Arial;
+    text-align: left;
+}
+
+.inline {display: inline-block}
+.oops {vertical-align: top; text-align: center; padding-top: 15px;}
+.center {text-align: center;}
+.entrance {vertical-align: top;left: 30%; max-width: 500px;}
+
+.button{
+   width: 70vw;
+   height:70vh;
+    transition: box-shadow 0.6s ease-out;
+    padding: 0.7vw;
+    border:none;
+    cursor: pointer;
+    border-radius: 13px;
+    border-radius: 18px;
+    position: absolute;
+    align-content: center;
+    background: #DEDEDE;
+    box-shadow: 22px -22px 43px #BBBBBB inset,
+     -22px 22px 43px #fff inset;
+     text-align: left;
+}
+.button:hover {
+    box-shadow: 0 3px 17px #757571 inset;   
+}
+.button span {
+	text-decoration: none;
+	overflow-y: scroll;
+	width: 500px;
+}
+
+.button-1{
+   width: 150px;
+   height: 300px;
+    transition: box-shadow 0.2s ease-out;
+    padding: 0.7vw;
+    border:none;
+    cursor: pointer;
+    border-radius: 13px;
+    border-radius: 18px;
+    background: #C8DCBF;
+     text-align: left;
+}
+.button-1:hover {
+    box-shadow: 0 3px 17px #93A88A inset; 
+}
+.button-1 span {
+	text-decoration: none;
+	overflow-y: scroll;
+	width: 500px;
+}
+
+.button-oops{
+   width: 150px;
+   height: 50px;
+    transition: box-shadow 0.6s ease-out;
+    padding: 0.7vw;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: auto;
+    border-radius: 13px;
+    border-radius: 18px;
+    background: #F9D0D0;
+    box-shadow: 10px -10px 20px #BA7F7F inset,
+     -10px 10px 20px #FEF2F2 inset;
+     text-align: left;
+}
+.button-oops:hover {
+    box-shadow: 0 3px 17px #BA7F7F inset;   
+}
+.button-oops span {
+    text-decoration: none;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+.button-correct{
+   width: 150px;
+   height: 300px;
+    transition: box-shadow 0.3s ease-out;
+    transition: 0.5s ease-out;
+    padding: 0.7vw;
+    border:none;
+    cursor: pointer;
+    border-radius: 13px;
+    border-radius: 18px;
+    background: #C8DCBF;
+     text-align: left;
+}
+.button-correct:hover {
+    box-shadow: 0 3px 17px #C2AC73 inset;  
+    background: #FEF8D6;
+}
+.button-correct span {
+    text-decoration: none;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	position: fixed;
+	color: transparent;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/daytime-miving.gif');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.background.active {
+  opacity: 1;
+}
+
+
+
+
+

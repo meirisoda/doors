@@ -1,0 +1,23 @@
+Try hovering your cursor over this text. What do you see? 
+The background moves in accordance to where your cursor is on the viewport. 
+
+It's kind of cool. The first time I found this almost neumorphism-esque way to write hover effects, I thought it could just be something to play around with. Try hovering your cursor in and out of the button boundary. 
+
+Now for a question. 
+What is interactivity? 
+
+If you want a really technical answer, the definition of 'interactive' (according to the Oxford Dictory) means: 
+1. Reciprocally active; acting upon or influencing each other. 
+	or 
+2. Pertaining to or being a computer or other electronic device that llows a two-way flow of information between and a user, responding immediately to the latter input.
+
+
+If I wanted to make this button interactive, does it mean that it needs to give you a response once you press it? If the button didn't give you an immediate feedback response, would it just be static and "non-interactive"? This button could just be here and give you nothing in return (except for that sweet, sweet effect when you hover in and out of its border). 
+
+But this definition can be very easily re-interpreted and applied into different circumstances. 
+
+
+"The screen forms a bridge between our bodies and the realm of circuits and electricity inside computers." (source:) This screen displaying this website is a bridge between the words I've written and your eyes. 
+ 
+
+I could argue that this button is interactive because you are interacting with it just by reading the text on the page. 
